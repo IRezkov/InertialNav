@@ -1,0 +1,2 @@
+version,device name,recording epoch time,recording time,recording timezone,platform,appVersion,device id,sensors,sampleRateMs
+3,Pixel 5,1708009821218,2024-02-15_15-10-21,Europe/Moscow,android,1.27.1,93095cf6-140d-42dc-bb0e-3fd8f22e7d7a,Accelerometer|Gyroscope|Orientation|Magnetometer|Barometer|Location|Microphone|Annotation|TotalAcceleration|MagnetometerUncalibrated|GyroscopeUncalibrated|AccelerometerUncalibrated,10|10|10|10|0|0|100||10|10|10|10
