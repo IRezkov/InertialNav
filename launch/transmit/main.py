@@ -7,7 +7,7 @@ fil = pd.read_csv('Location.csv')
 with open('/home/ysan/prac/InertialNav/launch/GPS.txt', 'w') as f:
     for i in range(len(fil)):
         f.write(
-            f'{(fil["seconds_elapsed"][i] - offset) * 1e3} 3. {(fil["seconds_elapsed"][i] - offset) * 1e3} 0. 0. 0. {fil["latitude"][i]} {fil["longitude"][i] + 180.} '
+            f'{(fil["seconds_elapsed"][i] - offset) * 1e3} 3. {(fil["seconds_elapsed"][i] - offset) * 1e3} 0. 0. 0. {fil["latitude"][i]} {fil["longitude"][i]} '
             f'{fil["altitude"][i]} 0. {fil["speed"][i]} {fil["bearing"][i]} 0. 0.\n')
 
 fil = pd.read_csv('GyroscopeUncalibrated.csv')[56:]
